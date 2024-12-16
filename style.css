@@ -1,11 +1,11 @@
-/* Global Reset */ 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body Styling */
+
 body {
     font-family: sans-serif;
     line-height: 1.5;
@@ -14,7 +14,7 @@ body {
     background-size: cover;
 }
 
-/* Main Section */
+
 .main-section {
     height: 100vh;
     display: flex;
@@ -25,7 +25,7 @@ body {
     color: #fff;
 }
 
-/* Navigation Styling */
+
 nav {
     margin-top: 20px;
     display: flex;
@@ -48,7 +48,7 @@ nav a:hover {
     cursor: pointer;
 }
 
-/* Section Content Styling */
+
 .projects-section,
 .about-web,
 .contact {
@@ -71,29 +71,29 @@ nav a:hover {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin: 10px;
-    flex: 1 1 calc(30% - 20px); /* Default card size */
+    flex: 1 1 calc(30% - 20px); 
 }
 
-/* Container for Projects */
+
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 0 auto ;
+    padding: 60px;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adds consistent space between items */
+    gap: 20px; 
     justify-content: center;
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
-        gap: 5px; /* Reduce spacing for smaller screens */
+        gap: 20px 
     }
 
     .project, .okno {
-        flex: 1 1 100%; /* Full width on small screens */
+        flex: 1 1 100%; 
     }
 
     nav a {
@@ -101,17 +101,20 @@ nav a:hover {
         text-align: center;
     }
 
-    /* Center headings on mobile */
+   
     .main-section h1,
     .projects-section h2,
     .about-web h2,
     .contact h2 {
-        text-align: center; /* Center heading text */
+        text-align: center; 
     }
 }
 
 @media (min-width: 769px) {
     .project {
-        flex: 1 1 calc(30% - 20px); /* Multi-column layout */
+        flex: 1 1 calc(30% - 20px); 
     }
 }
+
+
+
